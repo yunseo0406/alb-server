@@ -30,6 +30,7 @@
    - 최초 적용 시 출력되는 private key를 메모장에 복사하여  login-key-name : `login-key-YYYYMMDDhhmmss.pem` 파일로 저장
    - 출력 확인:
     ```bash
+    terraform output login_key_name
     terraform output private_key
     ```
    - login-key-YYYYMMDDhhmmss.pem 파일 사용
